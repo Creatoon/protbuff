@@ -1,6 +1,6 @@
 ### Example of how to create protbuff files and manipulate (serialize and deserialize) them.
 
-Protocol Buffers are simply messaging format which forces the data structure to follow a particular schema whose interchangable binary file occupies very less memory than json, hence it can save extra roundtrips to chunkify data in tcp also if we are using HTTP/2, that small binary file will also get compressed hence more advantage of using this. It's also language neutral.
+Protocol Buffers are a messaging format that forces the data structure to adhere to a specific schema. Because their interchangeable binary file takes up much less memory than JSON, it can reduce the number of times data is round-tripped over TCP and, if HTTP/2 is being used, it will also benefit from compression. It is also linguistically neutral.
 
 ### Usage
 
